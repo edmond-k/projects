@@ -89,27 +89,27 @@ ul {
     border-top-right-radius: 20px;
 }
 
-#about {
+.about {
     padding:15px;
     border-bottom:1px solid #dcd9d9;
     text-align:center
 }
-#about h2{
+.about h2{
     color:#efefef
 }
-#about p{
+.about p{
     padding:10px;
     text-align:justify;
     max-width:90rem;
     margin:0 auto;
     color:#dedede
 }
-#about p a{
+.about p a{
     font-weight:bold;
     color:#1688f0;
     text-decoration:none
 }
-#about p a:hover{
+.about p a:hover{
     color:#0d6ec6;
     background:#1a1a1a;
     border:1px solid #1688f0;
