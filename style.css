@@ -89,16 +89,31 @@ ul {
     border-top-right-radius: 20px;
 }
 
-.about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: var(--bg-user);
-    color: var(--text);
-    font-size: 18px;
-    padding: 2em;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+#about {
+    padding:15px;
+    border-bottom:1px solid #dcd9d9;
+    text-align:center
+}
+#about h2{
+    color:#efefef
+}
+#about p{
+    padding:10px;
+    text-align:justify;
+    max-width:90rem;
+    margin:0 auto;
+    color:#dedede
+}
+#about p a{
+    font-weight:bold;
+    color:#1688f0;
+    text-decoration:none
+}
+#about p a:hover{
+    color:#0d6ec6;
+    background:#1a1a1a;
+    border:1px solid #1688f0;
+    border-radius:4px
 }
 
 .user-info figure {
